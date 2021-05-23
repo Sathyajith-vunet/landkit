@@ -1,0 +1,55 @@
+.navbar-wrapper {
+    padding-top: 2rem;
+    padding-left: 40vh;
+    padding-right: 40vh;
+    position: relative;
+    z-index: 1;
+}
+
+ul {
+    list-style-type : none;
+    margin          : 0;
+    padding         : 0;
+    overflow        : hidden;
+}
+
+li {
+    float: left;
+    cursor: pointer;
+}
+
+li a {
+    display        : block;
+    color          : white;
+    text-align     : center;
+    padding        : 14px 16px;
+    text-decoration: none;
+}
+
+.drop-down-menu {
+    display: flex;
+    margin-left: 10rem;
+}
+
+.drop-down-menu > .list-item {
+    padding: 1rem;
+}
+
+.buy-now {
+    float: right;
+    padding: 1rem;
+}
+
+.buy-now > button {
+    background-color: blue;
+    border-radius   : 5px;
+    padding         : 1rem;
+    color           : white;
+    border          : none;
+    box-shadow      : lightgrey;
+    margin-right    : 1rem;
+}
+
+button:focus {
+    outline: none;
+}

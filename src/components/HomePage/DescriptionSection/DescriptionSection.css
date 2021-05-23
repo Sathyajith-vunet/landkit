@@ -1,0 +1,22 @@
+.descrtion-section {
+    display: flex;
+    padding-top: 6rem!important;
+    padding-left: 40vh;
+    padding-right: 40vh;
+    text-align: left;
+}
+
+.built-for-developers {
+    flex: 1;
+    padding: 0rem 1rem;
+}
+
+.designed-to-be-modern {
+    flex: 1;
+    padding: 0rem 1rem;
+}
+
+.documentation-for-everything {
+    flex: 1;
+    padding: 0rem 1rem;
+}
